@@ -1,21 +1,34 @@
-# Simple Node + Postgres login registration system
+# Node, Express, Postgres, Angular
 
-Try it out here: https://node-postgres-registration.herokuapp.com/
+## Starts cloning this project
 
-This is the Postgres version of my simple implementation of a login/registration system.
-The purpose of this repository is simply to try out Node + Postgres and to test it out Heroku's Postgres.
+* Just clone
+  git clone https://github.com/chandrams512/DockerMaster.git
 
-You can register, authenticate (retrieve JSON web token with valid credentials) and do CRUD operations on users.
+* Install all the node packages listed in the package.json
+```
+  npm install
+```
+* Open **../server/config/environments** and complete PostgreSQL database connection details
 
-## RESTful Routes
-- POST /api/auth/register
-- POST /api/auth/authenticate
-- GET /api/v1/users
-- GET /api/v1/users/me
-- GET /api/v1/users/:id
-- PUT /api/v1/users/:id/name
-- PUT /api/v1/users/:id/email
-- PUT /api/v1/users/:id/password
-- DELETE /api/v1/users/:id
+* Prepare the database (create table and populate)
+  By using following Query
+  ``` 
+  CREATE TABLE scl_user(
+  user_id serial PRIMARY KEY,
+  username text NOT NULL,
+  password text NOT NULL,
+  email text NOT NULL,
+  mobile_no text NOT NULL,
+  created_on date,
+  updated_by date,
+  last_login date,
+  login_attempts integer);
+```
 
-MongoDB version here: https://github.com/anthonynsimon/node-mongodb-registration
+* Start the node project
+```
+  npm start
+```
+
+* Browse to **http://localhost:3000**
