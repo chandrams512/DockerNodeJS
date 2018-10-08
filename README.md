@@ -24,8 +24,7 @@
   updated_by date,
   last_login date,
   login_attempts integer);
-```
-```
+
 * Start the node project
 ```
   npm start
@@ -34,5 +33,4 @@
 * Run node project on Browse
 ```
 *  **http://localhost:3000**
-
 ```
