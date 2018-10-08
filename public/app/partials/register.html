@@ -1,0 +1,45 @@
+<div>
+    <img src="./images/3.jpg" alt="bckgound" class="bg" style="z-index:-10;" />
+<div class="container">
+  <form class="bg centered-tight bg-rounded-box soft-shadow">
+
+    <div class="alert alert-success" role="alert" ng-show="alert.success">{{alert.success}}</div>
+    <div class="alert alert-danger" role="alert" ng-show="alert.error">{{alert.error}}</div>
+
+    <label for="inputName" class="sr-only">Name</label>
+    <input type="text" id="inputName" class="form-control square-bottom" placeholder="Your name" ng-model="name" required autofocus>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" id="inputEmail" class="form-control square-top-bottom margin-top" placeholder="Email address" ng-model="email" required autofocus>
+    <label for="inputMobile" class="sr-only">Mobile No</label>
+    <input type="text" id="inputMobile" class="form-control square-top-bottom margin-top" placeholder="Mobile no" ng-model="mobile" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control square-top margin-top" placeholder="Password" ng-model="password" required autofocus>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="register()">Register</button>
+    <br>
+    <p class="text-center" style="color:white;">Already have an account?<br>
+        <a ui-sref="login" style="color:white;cursor: pointer;"><b>Login</b></a>
+    </p>
+</form>
+</div>
+
+<div class="footer-top">
+        <div class="container">
+                <div class="row">
+                        <div class="col-sm-6 ">
+                            <div class="copyright-text">
+                                <p>CopyRight © 2018 Digital All Rights Reserved</p>
+                            </div>
+                        </div> <!-- End Col -->
+                        <div class="col-sm-6">							
+                            <ul class="social-link pull-right">
+                                <li><a href=""><span class="fa fa-facebook"></span></a></li>						
+                                <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                                <li><a href=""><span class="fa fa-google"></span></a></li>
+                                <li><a href=""><span class="fa fa-youtube"></span></a></li>
+                                <li><a href=""><span class="fa fa-linkedin"></span></a></li>
+                                <li><a href=""><span class="fa fa-instagram"></span></a></li>
+                            </ul>							
+                        </div> <!-- End Col -->
+                    </div>
+</div>
+</div>

@@ -1,0 +1,132 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.centered-md {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.centered-tight {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.bg-rounded-box {
+  background-color: #F9F7F7;
+  border-radius: 5px;
+  border: 0;
+  padding: 20px;
+}
+
+.centered-tight .centered-tight-heading,
+.centered-tight .checkbox {
+  margin-bottom: 10px;
+}
+
+.centered-tight .checkbox {
+  font-weight: normal;
+}
+
+.centered-tight .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.centered-tight .form-control:focus {
+  z-index: 2;
+}
+
+.square-bottom {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.square-top-bottom {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+.bg {
+    background: #1e1e1e;
+  }
+
+.margin-top{
+    margin-top: 5px;
+}  
+
+.footer-bottom {
+    padding: 40px 0 30px;
+    margin-top: 150px;
+    border-top: 1px solid #666;
+    background: #1e1e1e;
+}
+
+.footer-top {
+    padding: 40px 0 30px;
+    margin-top: 30px;
+    border-top: 1px solid #666;
+    background: #1e1e1e;
+}
+
+.copyright-text p {
+    color: #ccc;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.social-link li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.social-link li a {
+    color: #ccc;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.square-top {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.soft-shadow {
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(214,214,214,1);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(214,214,214,1);
+  box-shadow: 0px 4px 6px 0px rgba(214,214,214,1);
+}
+
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px){
+  img.bg {
+  left: 50%;
+  margin-left: -512px; }
+}

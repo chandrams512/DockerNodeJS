@@ -1,0 +1,19 @@
+<div>
+    <img src="./images/3.jpg" alt="bckgound" class="bg" style="z-index:-10;" />
+    <div class="container">
+      <div class="centered-tight bg-rounded-box soft-shadow">
+        
+        <h4 class="text-xs-center">Welcome {{data.name || data.email}}</h4>
+        <br>
+        <button class="btn-small btn-small form-control" ui-sref="settings">Use Aws</button>
+        <br>
+        <button class="btn-small btn-small form-control" ui-sref="settings">Use Azure</button>
+        <br>
+        <button class="btn btn-primary form-control" ui-sref="settings">Account settings</button>
+        <br>
+        <br>
+        <button class="btn btn-secondary form-control" ng-click="logout()">Logout</button>
+
+      </div>
+    </div>
+</div>
