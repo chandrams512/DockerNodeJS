@@ -5,6 +5,10 @@
 * Just clone
   git clone https://github.com/chandrams512/DockerMaster.git
 
+* Copy "DockerMaster" downloaded to the Config directory of Docker Container with Directory name as "DockerNodeJS"
+
+* Run the docker as mentioned in the Dockerfile Repository and follow the below commands.
+
 * Install all the node packages listed in the package.json
 ```
   npm install
